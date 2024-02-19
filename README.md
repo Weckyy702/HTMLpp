@@ -42,3 +42,9 @@ And the output (after prettier):
 
 - [ ] Attributes
 - [ ] Many more tags
+
+## Why???????
+
+Idk honestly, just felt like it. I guess you can now have type safe HTML?
+
+And I think it's really satisfying to see the compiler optimize it all away (have a look at the binary, the full HTML is just in there);
