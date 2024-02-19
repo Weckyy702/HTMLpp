@@ -7,6 +7,7 @@
 int main() {
   using html = 
   Document<
+    Head<Title<"My title">>,
     Body<
       H1<"My first heading">,
       P<$(12)>
