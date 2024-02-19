@@ -1,6 +1,5 @@
 #include <unistd.h>
 
-#include "IntToString.hpp"
 #include "Elements.hpp"
 
 // clang-format off
