@@ -2,7 +2,6 @@
 
 #include <algorithm>
 #include <cstddef>
-#include <ostream>
 #include <type_traits>
 
 template <std::size_t N> struct StringLiteral {
@@ -27,7 +26,6 @@ template <typename T> struct IsStringLiteral;
 
 template <std::size_t N>
 struct IsStringLiteral<StringLiteral<N>> : std::true_type {};
-
 
 template <std::size_t N>
 struct IsStringLiteral<const StringLiteral<N>> : std::true_type {};
